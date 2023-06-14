@@ -1685,6 +1685,10 @@ input[type=submit]:focus {
   z-index: 2;
 }
 
+.menu-category-wrap .menu-item a:hover {
+  color: #000;
+}
+
 .menu-category-wrap .menu-item .image img {
   display: block;
   margin: auto auto 0;
