@@ -448,7 +448,7 @@ h6 {
 }
 
 .home-mos .alphabet-card .wrap:hover .text {
-  top: 18%;
+  top: -15%;
 }
 
 .home-mos .alphabet-card .wrap:hover .text span {
@@ -1731,3 +1731,49 @@ input[type=submit]:focus {
   position: relative;
 }
 
+.site-footer {
+  position: relative;
+  background-color: #fff;
+}
+
+.site-footer .bg-top {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 100%;
+	margin-bottom: -3px;
+	pointer-events: none;
+}
+.footer-inner {
+	padding: 30px 0;
+}
+.footer-inner .footer-info .logo {
+	margin-bottom: 24px;
+}
+.footer-inner .footer-info .logo img {
+	display: block;
+	width: 115px;
+	height: auto;
+}
+.footer-inner .footer-info .address p:last-child {
+	margin: 0;
+}
+.footer-inner .socials {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.footer-inner .socials > li {
+  margin: 10px;
+}
+.copyright {
+	color: #fff;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	background-color: #d0021b;
+	padding: 16px 0;
+}
